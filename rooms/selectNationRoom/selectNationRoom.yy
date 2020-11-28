@@ -47,7 +47,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mainMenu",
+  "name": "selectNationRoom",
   "tags": [],
   "resourceType": "GMRoom",
 }

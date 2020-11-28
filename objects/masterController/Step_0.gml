@@ -61,7 +61,7 @@ if position_meeting(mouse_x, mouse_y,newGameIcon){
 	newGameIcon.image_index  = 0;
 	if(mouse_check_button_pressed(mb_left)){
 		MENUSET=0;
-		room_goto(mainMenu)}}
+		room_goto(selectNationRoom)}}
 if position_meeting(mouse_x, mouse_y,continueIcon){continueIcon.image_index  = 1;}
 if position_meeting(mouse_x, mouse_y,optionIcons){optionIcons.image_index  = 2;}
 
@@ -78,7 +78,7 @@ if position_meeting(mouse_x, mouse_y,optionIcons){optionIcons.image_index  = 2;}
 
 // --------------------------------------- SELECT COUNTRY
 
-if(room = mainMenu){
+if(room = selectNationRoom){
 	
 if(MENUSET=0){
 	
@@ -127,7 +127,38 @@ if(MENUSET=0){
 	countryIcon = instance_create_layer(0.3 * room_width, 0.8 * room_height, "Instances", oButton)
 	countryIcon.image_index = 11;
 	
-		
+
+	countryIcon = instance_create_layer(0.55 * room_width, 0.3 * room_height, "Instances", oButton)
+	countryIcon.image_index = 12;
+	
+	countryIcon = instance_create_layer(0.55 * room_width, 0.4 * room_height, "Instances", oButton)
+	countryIcon.image_index = 13;
+
+	countryIcon = instance_create_layer(0.55 * room_width, 0.5 * room_height, "Instances", oButton)
+	countryIcon.image_index = 14;
+	
+	countryIcon = instance_create_layer(0.55 * room_width, 0.6 * room_height, "Instances", oButton)
+	countryIcon.image_index = 15;
+	
+	countryIcon = instance_create_layer(0.55 * room_width, 0.7 * room_height, "Instances", oButton)
+	countryIcon.image_index = 16;
+	
+	countryIcon = instance_create_layer(0.55  * room_width, 0.8 * room_height, "Instances", oButton)
+	countryIcon.image_index = 17;
+	
+	
+	
+	countryIcon = instance_create_layer(0.8 * room_width, 0.3 * room_height, "Instances", oButton)
+	countryIcon.image_index = 18;
+	
+	countryIcon = instance_create_layer(0.8 * room_width, 0.4 * room_height, "Instances", oButton)
+	countryIcon.image_index = 19;
+
+	countryIcon = instance_create_layer(0.8 * room_width, 0.5 * room_height, "Instances", oButton)
+	countryIcon.image_index = 20;
+	
+	
+
 	
 	
 	
@@ -135,16 +166,15 @@ if(MENUSET=0){
 	
 	
 	
-	
-	displayText     = instance_create_layer(room_width/3,0.9 * room_height, "Instances", writeText) 
+	displayText     = instance_create_layer(room_width/3, 0.85 * room_height, "Instances", writeText) 
 	
 	
 	
 	MENUSET=1;
 }
 
-
-displayText.textToWrite = "Country Selected: " + string(selectedCountry) 
-
+if(selectedCountry > -1){
+displayText.textToWrite = "Country Selected: " + string(countryCode[selectedCountry][0]) 
+}
 
 }

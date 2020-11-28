@@ -3,9 +3,9 @@
     {"id":{"name":"masterController","path":"objects/masterController/masterController.yy",},"order":0,},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},"order":0,},
     {"id":{"name":"dialogueBox","path":"sprites/dialogueBox/dialogueBox.yy",},"order":0,},
-    {"id":{"name":"Helvetica20","path":"fonts/Helvetica20/Helvetica20.yy",},"order":0,},
+    {"id":{"name":"NokiaFont","path":"fonts/NokiaFont/NokiaFont.yy",},"order":0,},
     {"id":{"name":"writeText","path":"objects/writeText/writeText.yy",},"order":0,},
-    {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},"order":1,},
+    {"id":{"name":"selectNationRoom","path":"rooms/selectNationRoom/selectNationRoom.yy",},"order":1,},
     {"id":{"name":"blueBox","path":"sprites/blueBox/blueBox.yy",},"order":1,},
     {"id":{"name":"countries","path":"sprites/countries/countries.yy",},"order":0,},
     {"id":{"name":"oButtonParent","path":"objects/oButtonParent/oButtonParent.yy",},"order":1,},
@@ -30,7 +30,7 @@
   },
   "RoomOrder": [
     {"name":"startMenu","path":"rooms/startMenu/startMenu.yy",},
-    {"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},
+    {"name":"selectNationRoom","path":"rooms/selectNationRoom/selectNationRoom.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

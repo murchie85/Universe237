@@ -3,8 +3,8 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
-  "fontName": "Helvetica",
-  "styleName": "Regular",
+  "fontName": "m5x7",
+  "styleName": "Medium",
   "size": 30.0,
   "bold": false,
   "italic": false,
@@ -123,7 +123,7 @@
     {"lower":32,"upper":127,},
     {"lower":9647,"upper":9647,},
   ],
-  "regenerateBitmap": false,
+  "regenerateBitmap": true,
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
@@ -131,7 +131,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Helvetica20",
+  "name": "customFont_toChange",
   "tags": [],
   "resourceType": "GMFont",
 }

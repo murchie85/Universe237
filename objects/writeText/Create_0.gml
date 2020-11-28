@@ -1,2 +1,2 @@
-draw_set_font(Helvetica20);
+draw_set_font(NokiaFont);
 textToWrite = "blah"
