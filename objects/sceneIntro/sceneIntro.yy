@@ -18,17 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"holderObject","path":"objects/holderObject/holderObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"parent":{"name":"holderObject","path":"objects/holderObject/holderObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"sceneIntro","path":"objects/sceneIntro/sceneIntro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"sceneIntro","path":"objects/sceneIntro/sceneIntro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Assets",
-    "path": "folders/Objects/Assets.yy",
+    "name": "Scenes",
+    "path": "folders/Objects/Scenes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "holderObject",
+  "name": "sceneIntro",
   "tags": [],
   "resourceType": "GMObject",
 }

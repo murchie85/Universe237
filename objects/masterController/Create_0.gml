@@ -1,8 +1,11 @@
 MENUSET = 0;
+proceed = 0;
+
+phase = "start"
+
 
 selectedCountry = -1;
-
-
+exitCountrySelect = 0;
 countryCode = [
 
 		["USA"],
@@ -28,3 +31,10 @@ countryCode = [
 		["KENYA"]
 
 ]
+
+
+letterPosition = 0;
+namePosition   = 0;
+chosenName = ""
+userName = ""
+nameAquired = "no"
