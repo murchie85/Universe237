@@ -2,10 +2,13 @@
   "resources": [
     {"id":{"name":"starsSmallBright","path":"sprites/starsSmallBright/starsSmallBright.yy",},"order":0,},
     {"id":{"name":"masterController","path":"objects/masterController/masterController.yy",},"order":0,},
+    {"id":{"name":"startMenuObject","path":"objects/startMenuObject/startMenuObject.yy",},"order":1,},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},"order":0,},
     {"id":{"name":"textToScreen","path":"scripts/textToScreen/textToScreen.yy",},"order":2,},
     {"id":{"name":"dialogueBox","path":"sprites/dialogueBox/dialogueBox.yy",},"order":0,},
+    {"id":{"name":"smallBlueBox","path":"sprites/smallBlueBox/smallBlueBox.yy",},"order":2,},
     {"id":{"name":"utilities","path":"scripts/utilities/utilities.yy",},"order":0,},
+    {"id":{"name":"yesnoButtons","path":"sprites/yesnoButtons/yesnoButtons.yy",},"order":0,},
     {"id":{"name":"NokiaFont","path":"fonts/NokiaFont/NokiaFont.yy",},"order":0,},
     {"id":{"name":"writeText","path":"objects/writeText/writeText.yy",},"order":0,},
     {"id":{"name":"selectNationRoom","path":"rooms/selectNationRoom/selectNationRoom.yy",},"order":1,},
@@ -64,6 +67,7 @@
     {"folderPath":"folders/Objects/Assets.yy","order":3,"resourceVersion":"1.0","name":"Assets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/backgrounds.yy","order":5,"resourceVersion":"1.0","name":"backgrounds","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Scenes.yy","order":5,"resourceVersion":"1.0","name":"Scenes","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/buttons.yy","order":6,"resourceVersion":"1.0","name":"buttons","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

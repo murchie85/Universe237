@@ -1,8 +1,9 @@
 MENUSET = 0;
 proceed = 0;
+userName = ""
 
-phase = "start"
-
+introScene     = "incomplete";
+startMenuState = "incomplete";
 
 selectedCountry = -1;
 exitCountrySelect = 0;
@@ -33,8 +34,6 @@ countryCode = [
 ]
 
 
-letterPosition = 0;
-namePosition   = 0;
-chosenName = ""
-userName = ""
-nameAquired = "no"
+
+
+

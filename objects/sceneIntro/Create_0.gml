@@ -6,3 +6,6 @@ namePosition   = 0;
 chosenName = ""
 userName = ""
 nameAquired = "no"
+
+
+

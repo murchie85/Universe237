@@ -12,7 +12,7 @@ if(keyboard_check_pressed(ord("G")) or keyboard_check_pressed(vk_enter)){
 		charCount = 0;
 	}
 	else{
-		textComplete = 1;
+		alarm[0] = 20;
 		//instance_destroy()
 		//creator.myTextbox = noone;
 	}
