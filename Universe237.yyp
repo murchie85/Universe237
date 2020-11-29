@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"starsSmallBright","path":"sprites/starsSmallBright/starsSmallBright.yy",},"order":0,},
+    {"id":{"name":"testZone","path":"objects/testZone/testZone.yy",},"order":0,},
     {"id":{"name":"masterController","path":"objects/masterController/masterController.yy",},"order":0,},
     {"id":{"name":"startMenuObject","path":"objects/startMenuObject/startMenuObject.yy",},"order":1,},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},"order":0,},
@@ -15,9 +16,15 @@
     {"id":{"name":"blueBox","path":"sprites/blueBox/blueBox.yy",},"order":1,},
     {"id":{"name":"countries","path":"sprites/countries/countries.yy",},"order":0,},
     {"id":{"name":"oButtonParent","path":"objects/oButtonParent/oButtonParent.yy",},"order":1,},
+    {"id":{"name":"testRoom","path":"rooms/testRoom/testRoom.yy",},"order":3,},
+    {"id":{"name":"buttonPartsGreen","path":"sprites/buttonPartsGreen/buttonPartsGreen.yy",},"order":1,},
+    {"id":{"name":"generalButtonParent","path":"objects/generalButtonParent/generalButtonParent.yy",},"order":2,},
+    {"id":{"name":"greenButtonBigLong","path":"sprites/greenButtonBigLong/greenButtonBigLong.yy",},"order":2,},
     {"id":{"name":"oTextBox","path":"objects/oTextBox/oTextBox.yy",},"order":1,},
+    {"id":{"name":"greenButtonSmall","path":"sprites/greenButtonSmall/greenButtonSmall.yy",},"order":0,},
     {"id":{"name":"letterHolder","path":"objects/letterHolder/letterHolder.yy",},"order":3,},
     {"id":{"name":"gameIntroRoom","path":"rooms/gameIntroRoom/gameIntroRoom.yy",},"order":2,},
+    {"id":{"name":"greenButtonMed","path":"sprites/greenButtonMed/greenButtonMed.yy",},"order":1,},
     {"id":{"name":"sceneIntro","path":"objects/sceneIntro/sceneIntro.yy",},"order":0,},
     {"id":{"name":"starsSmallDull","path":"sprites/starsSmallDull/starsSmallDull.yy",},"order":1,},
     {"id":{"name":"sbackSimple","path":"sprites/sbackSimple/sbackSimple.yy",},"order":1,},
@@ -25,6 +32,7 @@
     {"id":{"name":"diamond","path":"sprites/diamond/diamond.yy",},"order":2,},
     {"id":{"name":"holderObject","path":"objects/holderObject/holderObject.yy",},"order":2,},
     {"id":{"name":"sMenuOptions","path":"sprites/sMenuOptions/sMenuOptions.yy",},"order":0,},
+    {"id":{"name":"generalButton","path":"objects/generalButton/generalButton.yy",},"order":3,},
     {"id":{"name":"startMenu","path":"rooms/startMenu/startMenu.yy",},"order":0,},
   ],
   "Options": [
@@ -44,6 +52,7 @@
     {"name":"startMenu","path":"rooms/startMenu/startMenu.yy",},
     {"name":"selectNationRoom","path":"rooms/selectNationRoom/selectNationRoom.yy",},
     {"name":"gameIntroRoom","path":"rooms/gameIntroRoom/gameIntroRoom.yy",},
+    {"name":"testRoom","path":"rooms/testRoom/testRoom.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -68,6 +77,8 @@
     {"folderPath":"folders/Sprites/backgrounds.yy","order":5,"resourceVersion":"1.0","name":"backgrounds","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Scenes.yy","order":5,"resourceVersion":"1.0","name":"Scenes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/buttons.yy","order":6,"resourceVersion":"1.0","name":"buttons","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Test.yy","order":6,"resourceVersion":"1.0","name":"Test","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/buttons/green.yy","order":3,"resourceVersion":"1.0","name":"green","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

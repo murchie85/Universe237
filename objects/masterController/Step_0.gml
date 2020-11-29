@@ -63,7 +63,12 @@ if(room = selectNationRoom){
 }
 
 
+if(room = testRoom){
+	if(testMenuState  = "inactive"){
+		testMenuState = instance_create_layer(x,y,"instances",testZone); 
+		testMenuState = "active"}
 
+}
 
 
 

@@ -95,6 +95,10 @@ if(phase=="dialogue3a"){
 
 	
 if(phase=="dialogue4"){
+	
+	instance_destroy(textBox)
+	instance_destroy(self)
+	room_goto(selectNationRoom)
 
 	yesIcon = instance_create_layer(0.3 * room_width, 0.7 * room_height, "Instances", oButton)
 	yesIcon.sprite_index = yesnoButtons

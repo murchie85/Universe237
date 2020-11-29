@@ -56,6 +56,7 @@ if(MENUSET=0){
 
 
 
+		// NEW GAME 
 		if position_meeting(mouse_x, mouse_y,newGameIcon){
 			newGameIcon.image_index  = 0;
 			if(mouse_check_button_pressed(mb_left)){
@@ -63,8 +64,22 @@ if(MENUSET=0){
 				room_goto(gameIntroRoom)
 				// Kick off an intro timer
 				masterController.alarm[0] = 100;
-				}}
-		if position_meeting(mouse_x, mouse_y,continueIcon){continueIcon.image_index  = 1;}
+				}
+			}
+		
+		/// CONTINUE 
+		if position_meeting(mouse_x, mouse_y,continueIcon){
+			continueIcon.image_index  = 1;
+			if(mouse_check_button_pressed(mb_left)){
+				MENUSET=0;
+				room_goto(testRoom)
+			}
+		}
+		
+		
+		
+		
+		// OPTIONS
 		if position_meeting(mouse_x, mouse_y,optionIcons){optionIcons.image_index  = 2;}
 
 
